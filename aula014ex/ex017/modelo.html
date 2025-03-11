@@ -3,21 +3,22 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hora do Dia</title>
+    <title>Tabuada</title>
     <link rel="stylesheet" href="style.css">
 </head>
-<body onload="carregar()">
+<body>
     <header>
-        <h1>Hora do Dia</h1>
+        <h1>Tabuada</h1>
     </header>
     <section>
-        <div id="msg">
-            Aqui vai aparecer a mensagem...
-        </div>
-        <div id="foto">
-            
-        </div>
-        </div>
+        <div id="dados">
+            <p>Número: <input type="number" name="inicio" id="txtn"> <input type="button" value="Gerar Tabuada" onclick="tabuada()"></p>
+         </div>
+         <div id="res">
+             <select name="Tabuada" id="seltab" size="10">
+                <option>Digite um número acima</option>
+             </select>
+         </div>
     </section>
     <footer>
         <p>&copy;CursoemVideo</p>
