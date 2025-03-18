@@ -1,0 +1,19 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body {
+    background: rgb(211, 213, 216);
+    font: normal 15pt Arial; 
+}
+
+.destaque {
+    color: #f00;
+    font-size: 20pt;
+}
+
+.fundo {
+    background: #682323;
+    color: white;
+    padding: 10px;
+    margin: 10px;
+}
